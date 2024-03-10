@@ -16,11 +16,38 @@ Testing: Run tests to ensure the accurate calculation of the range and other fun
 
 ~ How to Use: ~
 
-Run the main.py script to start the program.
-The main menu will display options to exit, add a new vehicle, test the program, or select an existing vehicle to modify.
-When adding or modifying a vehicle, provide the necessary details such as license plate, purpose, passengers, weight, and fuel level.
-Test the program by selecting the "Test Program" option, which will validate the program's functionalities and print the results.
+Start the Program:
 
+Run main.py to initiate the program. This script serves as the main entry point for the user interface.
+Main Menu Options:
+
+Upon starting, the main menu will present you with options to exit the program, add a new vehicle, run tests on the program, or select an existing vehicle to modify.
+Adding a New Vehicle:
+
+Choose the option to add a new vehicle. You will need to input details such as the license plate, purpose, passengers, weight, and fuel level. The program ensures that each vehicle has a unique identifier.
+Modifying an Existing Vehicle:
+
+The program provides an overview of all vehicles sorted by their driving range. Select a vehicle by choosing the corresponding alphabet letter shown next to the vehicle details.
+Once a vehicle is selected, you can modify various attributes such as the license plate, purpose, weight, fuel level, and range. You also have options to delete the vehicle or create a copy of it.
+Deleting a Vehicle:
+
+While modifying a vehicle, you can choose to delete it. You will be asked to confirm your decision before the vehicle is permanently removed from the fleet.
+Copying a Vehicle:
+
+The option to copy a vehicle allows you to create an exact duplicate of the selected vehicle with a new license plate. This is useful for quickly adding vehicles with similar specifications.
+Viewing Vehicles Overview:
+
+At any point, you can view a detailed overview of all vehicles, which includes sorted listings based on their driving range. This feature is part of the main menu and can be accessed directly.
+Running Tests:
+
+The program includes a testing feature to validate the accuracy of functionalities such as the calculation of the driving range and the updating of vehicle details. Select the "Test Program" option from the main menu to run these tests.
+Exiting the Program:
+
+To exit the program, select the exit option from the main menu. The program will terminate after saving any changes made during the session.
+Data Persistence:
+
+Vehicle data is saved to a file, ensuring that all modifications are retained between sessions. The program automatically loads this data upon startup.
+Remember, the program assumes specific conditions for fuel consumption rate, maximum weight, fuel level, and range for vehicles, as detailed in your documentation. This guide should provide users with a clear understanding of how to effectively use the Fire Department Vehicle Manager application.
 
 ~ Assumptions: ~
 
